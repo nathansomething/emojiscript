@@ -1,7 +1,7 @@
 {
   "name": "emojiscript",
   "main": "./lib/emojiscript",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "It's like javascript, but with emojis",
   "styles": [
     "emojiscript.less"
