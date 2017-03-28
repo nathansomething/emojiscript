@@ -10,14 +10,12 @@
   "activationCommands": {
     "atom-workspace": "emojiscript:toggle"
   },
-  "repository": "https://github.com/dan3944/emojiscript",
+  "repository": "https://github.com/nathansomething/emojiscript",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": [
-    "jquery"
-  ],
+  "dependencies": [],
   "devDependencies": {
     "jquery": "^3.2.1",
     "node-cmd": "^2.0.0"

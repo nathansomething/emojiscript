@@ -1,15 +1,23 @@
 
 function fizzbuzz(number) {
-  while(number > 0) {
+    for (let i = 1; i <= number; i++) {
+        let output = ""
 
-    if (number % 3 == 0) {
-      console.log("fizz")
+        if (i % 3 == 0) {
+            output += "Fizz"
+        }
+
+        if (i % 5 == 0) {
+            output += "Buzz" 
+        }
+
+        if (output == "") {
+            console.log(i)
+        }
+        else {
+            console.log(output)
+        }
     }
-    if (number % 5 == 0) {
-      console.log("buzz")
-    }
-    number--
-  }
 }
 
 fizzbuzz(20)
